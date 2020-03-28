@@ -17,7 +17,7 @@ This is a whole front end and backend source code for my project in webkriti con
 
 # Backend and Security:
 * Redirecting to Login Form if not yet logged in but performing operations like REGISTER,UNREGISTER or to view DASHBOARD
-* Use of EJS templating engine to display dashboard by rendering data dynamically(THANKS TO AASF BLOG-3 on NODEJS
+* Use of EJS templating engine to display dashboard by rendering data dynamically(THANKS TO AASF BLOG-3 on NODEJS)
 * DISPLAYING MEMES if he/she tried to register even though they had already registered,unregister if they didn't register in the first place ,tried to log-in even though they are already logged-in ,tried to log out even though they are already logged out or incorrect email or password in login page
 * Redirecting to the dashborard after the log-in is succesfull
 * Redirecting to the dashboard after registering/unregistering for any event or booking for accomodation(which would turn to YES)
