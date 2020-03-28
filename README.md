@@ -39,7 +39,7 @@ https://stark-ridge-31421.herokuapp.com/
 
 
 
-I would personally want to thank Guna Shekhar Sir,Mallikarjun Sir and Shweta Chaurasia Mam for their efforts in the AASF articles without which i wouldn't have made the backend design for my Website.
+I would personally want to thank Guna Shekhar Sir,Mallikarjun Sir and Shweta Chaurasia Mam for their efforts in the AASF articles without which i wouldn't have made the backend design for my App.
 
 
 # BY THARI ZEPHANIAH 2019BCS-067
