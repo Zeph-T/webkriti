@@ -175,7 +175,7 @@ app.get('/dashboard',(req,res)=>{
      console.log(err);
       res.status(500).send("check aagain");
      }
-     else res.redirect("http://localhost:5000")
+     else res.redirect("https://stark-ridge-31421.herokuapp.com")
  
      
      });
@@ -210,7 +210,7 @@ app.get('/dashboard',(req,res)=>{
    console.log(err);
     res.status(500).send("error occured");
    }
-   else res.redirect("http://localhost:5000/dashboard")
+   else res.redirect("https://stark-ridge-31421.herokuapp.com/dashboard")
  
    
    });
@@ -218,7 +218,7 @@ app.get('/dashboard',(req,res)=>{
  
  })}
  else
- res.redirect("http://localhost:5000/login");
+ res.redirect("https://stark-ridge-31421.herokuapp.com/login");
  
  }
  )
@@ -236,12 +236,12 @@ if(req.session.user){
 
     else
     req.session.user.accomodation='1';
-    res.redirect("http://localhost:5000/dashboard");
+    res.redirect("https://stark-ridge-31421.herokuapp.com/dashboard");
   })
  
  }
  else
- res.redirect("http://localhost:5000/login")})
+ res.redirect("https://stark-ridge-31421.herokuapp.com/login")})
  
  app.post("/cancelregister",(req,res)=>
  {console.log("coming");
@@ -263,7 +263,7 @@ if(req.session.user){
  if(err)
  res.redirect(err)
  else
-       res.redirect("http://localhost:5000/dashboard");
+       res.redirect("https://stark-ridge-31421.herokuapp.com/dashboard");
      })}
  
  else
@@ -275,7 +275,7 @@ if(req.session.user){
  })
  }
  else
- res.redirect("http://localhost:5000/login");
+ res.redirect("https://stark-ridge-31421.herokuapp.com/login");
  })
  
  
@@ -292,7 +292,7 @@ if(req.session.user){
                const result = (password==user.psw)
                if (result) { 
                  req.session.user = user;
-                 res.redirect('http://localhost:5000/dashboard');
+                 res.redirect('https://stark-ridge-31421.herokuapp.com/dashboard');
  
                 
                } else {
