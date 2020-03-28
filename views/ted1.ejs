@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+  <link rel="stylesheet" type="text/css" href="styles.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+
+@import url('https://fonts.googleapis.com/css?family=Codystar:300&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Kelly+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Blinker&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Kavoon&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css?family=Geo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Shojumaru&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Faster+One&display=swap');
+
+
+
+@font-face {
+  font-family: Clip;
+  src: url("https://acupoftee.github.io/fonts/Clip.ttf");
+}
+
+.neons h1{
+   margin-top: 10rem;
+   text-align: center;
+}
+
+
+
+.neons h3 {
+  font-size: 20px;
+  text-align: right;
+  text-decoration: none;
+  font-color:white;
+   font-weight: bold;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+font-family: Shojumaru;
+}
+
+.neons h1 {
+  font-size: 120px;
+  text-align: center;
+   font-weight: bold;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+     from {
+      color: black ;
+    text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+  /*text-shadow:0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000, 0 1 90px #ff0000;*/}
+  to {
+     color:#b7b7b7;
+   text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+  /* text-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000, 0 1 90px #ff0000;*/
+  }
+}
+
+
+* {
+  box-sizing: border-box;
+}
+.p{
+  background-image: url("https://i1.wp.com/www.marktechpost.com/wp-content/uploads/2018/12/pexels-photo-713149.jpeg?fit=1920%2C1440&ssl=1");
+  background-size: 100%;
+  background-repeat: repeat;
+right:0;
+background-position: center;
+}
+
+.fa {
+  top:0;
+  padding: 20px;
+  font-size: 50px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color:white;
+  float:left;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+p{
+  color:white;
+  font-family: Shojumaru;
+  font-size:25px;
+  padding:40px;
+  border:4px solid white;
+padding: 40px;
+}
+.bg-text1 {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4);
+  background-image:url("https://www.businesskorea.co.kr/news/photo/201706/20950_18263_0.png");
+  background-repeat: no-repeat;
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  background-size: 100%;
+  top:100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 70%;
+  height:600px;
+  padding: 50px;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 3px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination a.active {
+  background-color: black;
+  color: white;
+  border: 3px solid white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+img
+{
+  width:440px;
+  height:400px;
+
+}
+h1
+{
+  text-align:center;
+  font-size: 100px;
+  color:white;
+  top:10%;
+  font-family:Shojumaru;
+}
+
+.ph
+{
+  border:3px solid white;
+  background-size: 100%;
+
+}
+*{
+  box-sizing: border-box;
+}
+.fsl
+{
+  display: flex;
+ 
+   margin: 10px;
+   flex-direction: row;
+    border:10px;
+  width:100%;
+  padding:50px;
+
+  height:auto;
+}
+h2{
+
+  font-size: 30px;
+  text-align: center;
+  font-family: Shojumaru;
+  color:white;
+}
+
+.fa {
+  top:0;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color:white;
+  float:left;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+h3
+{
+  text-align:right;
+  font-family: Shojumaru;
+
+}
+a{
+    text-decoration: none;
+}
+img
+{
+  border:3px solid white;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  font-family: Shojumaru;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color:rgb(169,169,169); 
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin:auto;
+}
+
+
+
+.container {
+  position: relative;
+  width: 40%;
+  height:500px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:red;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 45px;
+  position: absolute;
+  font-family: Geo;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.f{
+display:flex;
+flex-direction:row;
+justify-content: space-around;
+}
+
+
+.button:hover {background-color: silver}
+
+.button:active {
+  background-color: silver;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+p{
+	 font-family: kavoon;
+color:black;
+font-size:35px;
+text-align: center;
+background-color: rgb(169,169,169);
+}
+
+
+div{
+  font-family:Arial;
+  color:white;
+
+}
+
+
+.query{
+    position:absolute;
+    right:0;
+    font-family: Geo;
+    font-size: 40px;
+
+    border:4px solid white;
+    border-radius: 25px;
+    
+}
+@media screen and (max-width:500px) {
+  .f{
+    display: none;
+  }
+}
+
+
+</style>
+</head>
+<body class="p">
+
+
+
+   <div class="row">
+      <div class="neons col-12">
+         <h3><a href="http://localhost:5000">TECHOTSAV</a></h3>
+      </div>
+    </div>
+
+<h1>TED-TALKS</h1>
+<br>
+
+<form action="/register" method="post">
+  <div style="display:none;">
+    <input type="text" name="event" value="Ted Talks" />
+    </div>
+<button   class="button" style="vertical-align:middle;right:85%;">REGISTER HERE!</a></button>
+</form>
+
+
+<form action="/cancelregister" method="post">
+  <div style="display:none;">
+    <input type="text" name="event" value="Ted Talks" />
+    </div>
+<button   class="button" style="vertical-align:middle;left:85%;">CANCEL REGISTRATION</a></button>
+</form>
+
+
+<br><br>
+<div class="f">
+  <div class="container">
+    <img src="pranav.png" alt="Pranav Mistry" class="image">
+    <div class="overlay">
+      <div class="text">Pranav Mistry<br>Date:4 January<br>Venue:Auditorium</div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <img src="https://i0.wp.com/farm3.static.flickr.com/2803/4079908724_0620369df4.jpg" alt="Anil Gupta" class="image">
+    <div class="overlay">
+      <div class="text">Anil Gupta<br>Date:5 January<br>Venue:Auditorium</div>
+    </div>
+  </div>
+  
+  </div>
+  <br><br>
+  <div class="f">
+  <div class="container">
+    <img src="https://www.newsbugz.com/wp-content/uploads/2018/09/Ashish-Chanchlani-Images-8-e1537441072983.jpg" alt="Ashish Chanchalani" class="image">
+    <div class="overlay">
+      <div class="text">Ashish Chanchalani<br>Date:6 January<br>Venue:Auditorium</div>
+    </div>
+  </div>
+  <div class="container">
+    <img src="https://s3.amazonaws.com/talkstar-photos/uploads/61162492-3322-482c-893a-5b9dd8440b47/SugataMitra_2017I-embed.jpg" alt="Sugata Mitra" class="image">
+    <div class="overlay">
+      <div class="text">Sugata Mitra<br>Date:7 January<br>Venue:Auditorium</div>
+    </div>
+  </div>
+  
+  </div>
+  <br><br>
+  <div class="f">
+  <div class="container">
+    <img src="https://csq.com/wp-content/uploads/2016/03/Shivani-Opening.jpg" alt="Shivani Shiroya" class="image">
+    <div class="overlay">
+      <div class="text">Shivani Shiroya<br>Date:8 January<br>Venue:Auditorium</div>
+    </div>
+  </div>
+  <div class="container">
+    <img src="https://www.hindustantimes.com/rf/image_size_1200x900/HT/p2/2020/03/10/Pictures/shashi-tharoor-public-meeting-maharani-bagh_a32c7062-62fa-11ea-9f9f-cfbcf00f9318.jpg" alt="Shashi Tharoor" class="image">
+    <div class="overlay">
+      <div class="text">Shashi Tharoor<br>Date:9 January<br>Venue:Auditorium</div>
+    </div>
+    
+    </div>
+  </div>
+
+
+  <br><br>
+  <div class="query">
+    <h4>
+        CONTACT DETAILS:
+        <br>
+        Zeph:7013821854
+        <br>
+        Pavan:8328480167
+        
+    </h4>
+</div>
+<br><br><br><br>
+
+<a href="https://www.facebook.com/auroraiiitm/" class="fa fa-facebook "style="left:85%;"></a>
+<a href="https://www.linkedin.com/company/aurora-iiitm-gwalior/" class="fa fa-linkedin"style="z-index=2"></a>
+<a href="https://www.youtube.com/channel/UCQmbFlStfjsCRkaBvy_jPMg" class="fa fa-youtube"style="z-index=2"></a>
+<a href="https://www.instagram.com/aurora_iiitm/" class="fa fa-instagram"style="z-index=2"></a>
+
+
+</body>
+</html>

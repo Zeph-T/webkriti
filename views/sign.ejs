@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<style>
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Codystar:300&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Kelly+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Blinker&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Kavoon&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css?family=Geo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Shojumaru&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Faster+One&display=swap');
+
+
+
+@font-face {
+  font-family: Clip;
+  src: url("https://acupoftee.github.io/fonts/Clip.ttf");
+}
+
+
+
+#particles-js {
+	background-color:black;
+   
+   	position: fixed;
+   	z-index: -1;
+   	width: 100%;
+   	height:100%;
+   
+ 
+    top: 0;
+    left: 0;
+}
+.neons h1{
+   margin-top: 10rem;
+   text-align: center;
+}
+
+
+
+.neons h3 {
+  font-size: 20px;
+  text-align: right;
+  text-decoration: none;
+  font-color:white;
+   font-weight: bold;
+  -webkit-animation: example 2s ease-in-out infinite alternate;
+  -moz-animation: example 2s ease-in-out infinite alternate;
+  animation: example 2s ease-in-out infinite alternate;
+font-family:Shojumaru;
+}
+
+.neons h1 {
+  font-size: 120px;
+  text-align: center;
+   font-weight: bold;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+     from {
+      color: black ;
+    text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+  /*text-shadow:0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000, 0 1 90px #ff0000;*/}
+  to {
+     color:#b7b7b7;
+   text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+  /* text-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000, 0 1 90px #ff0000;*/
+  }
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+h2{
+	color:white;
+}
+/* Add padding to containers */
+.container {
+  padding: 10px;
+  background-color: none;
+  width: 40%;
+  margin:auto;
+ border:2px solid white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password],input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr 
+hr {
+  border: 3px solid white;
+  margin-bottom: 25px;
+}*/
+.back
+{
+	background-image: url("kre.jpg");
+	background-size: 100%;
+}
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: red;
+  color:white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+p{
+	background-color: none;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+h1{
+	color:white;
+font-family: Shojumaru;
+	padding:30px;
+	text-align: center;
+	font-size: 50px;
+}
+
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+
+
+</head>
+<body class="back">
+
+
+  <div id="particles-js">
+  </div>
+  <script type="text/javascript" src="particles/particles.min.js"></script>
+  <script type="text/javascript" src="particles/app.js"></script>	
+  
+  <div class="content">
+
+<h1>
+	
+	REGISTER-FORM
+</h1>
+<form  action="/submit"   method ="post"  name="registration"> 
+	 <div class="container">
+    <h2>Sign-Up</h2>
+    <hr>
+
+    <label for="name"></label>
+    <input type="text" placeholder="Enter Name" id="name" name="name" required>
+<br>
+
+<label for="email"></label>
+<input type="email" placeholder="Enter email" id="email" name="email" required>
+
+<br>
+<label for="psw"></label>
+    <input type="password" placeholder="Enter Password" id="psw1" name="psw" required>
+<br>
+    <label for="psw-repeat"></label>
+    <input type="password" placeholder="Repeat Password" id="psw2" name="psw-repeat" required>
+    <br>  
+      <label for="ph-number"></label>
+    <input type="text" placeholder="Enter 10-digit mobile number"  id="num" name="phone" required>
+    <hr>
+
+  
+    <button type="submit" class="registerbtn" onclick="return formValidation()">Submit</button>
+  </div>
+  
+  <div class="container signin">
+    <p>Already have an account? <a href="http://localhost:5000/login">Sign in</a>.</p>
+  </div>
+</form>
+
+</div>
+</body>
+</html>
+
+<script >
+	
+
+	function formValidation()
+
+{
+
+console.log("hii");
+
+	var name=document.getElementById('name').value;
+	var p1=document.getElementById('psw1').value;
+	var p2=document.getElementById('psw2').value;
+var number=document.getElementById('num').value;
+
+num_len=number.length;
+
+	if(p1!=p2)
+	{
+		alert("Passwords do not match!!");
+		return false;
+	}
+	else
+		if(num_len!=10)
+		{
+			alert("Invalid number");
+			return false;
+		}
+else
+	return true;
+
+}
+
+
+</script>
+
