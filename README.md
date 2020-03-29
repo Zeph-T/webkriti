@@ -28,7 +28,7 @@ https://drive.google.com/open?id=1fe_ZvOBUlPnrG97ey0FtvRRK3NgOGPnN
 
 
 # VIDEO
-https://drive.google.com/open?id=1BzxzamQu4MisF1FB2n3ER1sVh_Dv17Iw
+https://www.youtube.com/watch?v=ZtTN-5jL9_A&feature=youtu.be
 
 # HOSTED WEBSITE LINK
 https://stark-ridge-31421.herokuapp.com/
